@@ -203,6 +203,6 @@ def main():
     pl.ylabel('Percentage Volume')
     pl.legend(loc=7, borderaxespad=-5)
     pl.setp(pl.gca().get_legend().get_texts(), fontsize='x-small')
-    pl.savefig('results/dvh.png', dpi = 75)
+    pl.savefig('testdata/dvh.png', dpi = 75)
 if __name__ == "__main__":
     main()

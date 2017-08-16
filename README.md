@@ -18,7 +18,7 @@ pip install -r requirements.txt
 
 python dvhcalc.py
 
-* it will read rtss and rtdose file from testdata/ folder and write dvh.png to results/ folder
+* it will read rtss and rtdose file from testdata/ folder and write dvh.png to the same folder
 
 # License
 Copyright (c) 2016 glucee
