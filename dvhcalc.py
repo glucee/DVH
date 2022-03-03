@@ -189,7 +189,7 @@ def main():
 
     # Generate the calculated DVHs
     calcdvhs = {}
-    for key, structure in RTstructures.iteritems():
+    for key, structure in RTstructures.items():
         calcdvhs[key] = dvhcalc.get_dvh(rtssfile, rtdosefile, key)
         if (key in calcdvhs) and (len(calcdvhs[key].counts) and calcdvhs[key].counts[0]!=0):
             print ('DVH found for ' + structure['name'])
